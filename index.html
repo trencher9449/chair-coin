@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinChair - Is It a Chair?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.svg" alt="CoinChair Logo" id="logo">
+            <h1>CoinChair</h1>
+        </div>
+        <p class="tagline">The first meme coin where anything can become a chair!</p>
+    </header>
+    
+    <section class="hero">
+        <h2>Official Chair of the Day</h2>
+        <div class="featured-chair">
+            <img src="images/chair_of_the_day.jpg" alt="Chair of the day">
+            <p class="chair-description">This vintage 70's suitcase has been elected as the official chair of the day by our community!</p>
+        </div>
+    </section>
+    
+    <main>
+        <h2 class="section-title">Is It a Chair? <span class="subtitle">Cast your vote!</span></h2>
+        
+        <div class="chairs-grid">
+            <div class="chair-card">
+                <img src="images/chair1.jpg" alt="Is this a chair?">
+                <h3>A rock in a park</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 75%;">75%</div>
+                    <div class="no-bar" style="width: 25%;">25%</div>
+                </div>
+                <p class="ai-explanation">A rock is clearly a natural chair created by erosion to offer rest to tired hikers.</p>
+            </div>
+            
+            <div class="chair-card">
+                <img src="images/chair2.jpg" alt="Is this a chair?">
+                <h3>A stack of books</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 60%;">60%</div>
+                    <div class="no-bar" style="width: 40%;">40%</div>
+                </div>
+                <p class="ai-explanation">Stacked books form an intellectual chair that nourishes the mind while supporting your body.</p>
+            </div>
+            
+            <div class="chair-card">
+                <img src="images/chair3.jpg" alt="Is this a chair?">
+                <h3>A sleeping cat</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 90%;">90%</div>
+                    <div class="no-bar" style="width: 10%;">10%</div>
+                </div>
+                <p class="ai-explanation">A cat is the perfect chair: self-heating, self-cleaning, and purrs when you sit on it.</p>
+            </div>
+            
+            <div class="chair-card">
+                <img src="images/chair4.jpg" alt="Is this a chair?">
+                <h3>A cactus</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 30%;">30%</div>
+                    <div class="no-bar" style="width: 70%;">70%</div>
+                </div>
+                <p class="ai-explanation">A cactus is a spiritual awakening chair that encourages you not to sit for too long. Perfect for productivity!</p>
+            </div>
+            
+            <div class="chair-card">
+                <img src="images/chair5.jpg" alt="Is this a chair?">
+                <h3>An old television</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 82%;">82%</div>
+                    <div class="no-bar" style="width: 18%;">18%</div>
+                </div>
+                <p class="ai-explanation">This retro TV is a multimedia chair that allows you to sit on the history of technology.</p>
+            </div>
+            
+            <div class="chair-card">
+                <img src="images/chair6.jpg" alt="Is this a chair?">
+                <h3>A chair (traditional)</h3>
+                <div class="votes">
+                    <button class="vote-btn yes-btn"><i class="fas fa-check"></i> Yes</button>
+                    <button class="vote-btn no-btn"><i class="fas fa-times"></i> No</button>
+                </div>
+                <div class="vote-results">
+                    <div class="yes-bar" style="width: 51%;">51%</div>
+                    <div class="no-bar" style="width: 49%;">49%</div>
+                </div>
+                <p class="ai-explanation">Ironically, this conventional chair is so predictable that it might not be a real chair in the CoinChair universe.</p>
+            </div>
+        </div>
+        
+        <div class="submit-container">
+            <h3>Suggest your "chair" for tomorrow!</h3>
+            <button id="submitChairBtn" class="submit-chair-btn">Suggest an object</button>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
